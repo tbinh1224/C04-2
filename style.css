@@ -223,33 +223,41 @@ button{
     text-align: center;
     display: flex;
 }
+#service{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
 
 .right{
-    float: right;
-    width: 50%;
     display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px;
-    gap: 140px;
-    row-gap: 55x;
-    align-content: center;
-    
-    
-    
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    row-gap: 25px;
 }
+
 .left{
-    float: left;
-    width: 310px;
-    margin-left: 130px;
-    display: inline-block;
+    width: 90%;
+    padding: 0 40px;
     
 }
-.right h3,p{
-    width: 220px;
-
-}
-
+    
 .divright{
-    background-color: aliceblue;
+    background-color: ghostwhite;
     padding: 50px;
+    
+}
+.left h2{
+    font-size: 37px;
+}
+.left p{
+    font-size: 15px;
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 36px;
+}
+.divright i{
+    
 }

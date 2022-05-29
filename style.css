@@ -81,6 +81,7 @@ nav{
     color: white;
     text-decoration: none;
     padding: 10px;
+    display: block;
 
 }
 .headerdiv {
@@ -145,15 +146,110 @@ button{
 }
 .divdrop{
     position: relative;
+    display: block;
 
 }
 .hiddentext{
     position: absolute;
     list-style: none;
     display: none;
+    right: 208px;
+    margin-top: 0;
+    padding: 10px 3px 5px;
+    background-color: black;
+    
+    text-decoration: none;
+    
+}
+.hiddentext li:hover{
+    background-color: white;
+    color: black;
+    
+}
+.divdrop:hover .hiddentext{
+    display: block;
+    
+    
+    
 }
 .hiddentext li{
     background-color: black;
-    color: white;
-}
+    margin-bottom: 20px;
     
+}
+.hidden{
+    color: white;
+    text-decoration: none;
+}
+
+#Statistics{
+    background: url(./bg.jpg) top;
+    background-size: cover;
+    padding-bottom: 420px;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+.headerstat{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 50px;
+    margin-top: 90px;
+    color: white;
+
+}    
+.divstat .number{
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-size: 70px;
+
+}
+.divstat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-right: 86px;
+    margin-left: 86px;
+    width: 150px;
+}
+#static{
+    position: absolute;
+    right: 50%;
+    bottom: 30%;
+    transform: translate(50%,70%);
+    text-align: center;
+    display: flex;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 140px;
+    row-gap: 55x;
+    align-content: center;
+    
+    
+    
+}
+.left{
+    float: left;
+    width: 310px;
+    margin-left: 130px;
+    display: inline-block;
+    
+}
+.right h3,p{
+    width: 220px;
+
+}
+
+.divright{
+    background-color: aliceblue;
+    padding: 50px;
+}

@@ -258,6 +258,18 @@ button{
     letter-spacing: 1px;
     line-height: 36px;
 }
-.divright i{
-    
+.fa-solid ,.fa-brands{
+    color: orange;
+    font-size: 50px;
 }
+.divright:hover{
+  background-color: orange;
+  color: white;
+}
+.divright:hover .icon{
+    color: white;
+}
+.divright:hover h3{
+    color: black;
+}
+

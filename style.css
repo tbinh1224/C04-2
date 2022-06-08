@@ -272,4 +272,111 @@ button{
 .divright:hover h3{
     color: black;
 }
+.info{
+    background:url(./bg.jpg) center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.header-test{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.person-info{
+    display: inline-block;
+    
+    width: 28%;
+    text-align: center;
+    
+    
+}
+.person-info p{
+    margin: 0 auto;
+    width: 70%;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 2;
+    margin-bottom: 20px;
+    
+}
+.info-list{
+    margin-left: 145px;
+}
+.person-info img{
+    border-radius: 50%;
+}
+.person-info h3{
+    color: orange;
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}
+.blog-3{
+    display: inline-flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: ghostwhite;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.blog-1{
+    display: inline-flex;
+    width: 30%;
+    flex-direction: column;
+}
+.blog-2{
+    display: inline-flex;
+    width: 30%;
+    flex-direction: column;
+}
+.blogimg{
+    width: 100%;
+}
 
+.blog-3 a{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ourblog{
+    margin-bottom: 150px;
+}
+.header-blog{
+    text-align: center;
+    font-size: 45px;
+}
+.blog{
+    margin-left: 20px;
+}
+.textandlink{
+    padding: 16px;
+    background-color: ghostwhite;
+    
+}
+.item-blog{
+    display: flex;
+    flex-direction: row;
+}
+.blog a{
+    color: black;
+    text-decoration: none;
+}
+.blog p{
+    color: grey;
+}
+
+.textandlink #button{
+    color: orange;
+
+}
+.blog-3 small{
+    color: orange;
+}
+.blog a:hover{
+    color: orange;
+}
